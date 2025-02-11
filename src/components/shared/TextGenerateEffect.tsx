@@ -33,7 +33,7 @@ export const TextGenerateEffect = ({
     return (
         <div className={cn("font-bold", className)}>
             <div className="mt-4">
-                <div className="dark:text-slate-400 text-black text-2xl leading-snug tracking-wide">
+                <div className="dark:text-slate-400 text-black text-xl md:text-2xl leading-snug tracking-wide">
                     <motion.div ref={scope}>
                         <motion.span
                             className="dark:text-black text-gray-400 opacity-0 leading-8"

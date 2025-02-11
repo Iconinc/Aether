@@ -34,3 +34,7 @@ html {
 .flex-start {
     @apply flex items-start justify-start
 }
+
+.flex-between {
+    @apply flex items-center justify-between
+}
