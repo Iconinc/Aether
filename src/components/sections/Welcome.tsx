@@ -13,7 +13,7 @@ const Welcome = () => {
                     <span className={'w-2 h-2 bg-green-400 rounded-full scale-75'}></span>
                     <p className={'text-slate-800'}>Digital Development Agency</p>
                 </div>
-                <h2 className={'w-full md:w-2/3 lg:w-1/2 text-slate-800 text-4xl lg:text-6xl text-center font-bold px-12 '}>
+                <h2 className={'w-full lg:w-1/2 text-slate-800 text-4xl md:text-6xl text-center font-bold px-12 '}>
                     Crafting <span className={' px-2 py-1 border-l-2 border-indigo-500 bg-gradient-to-r from-indigo-500'}>Next-Gen</span> Web Experiences
                 </h2>
                 <div className={'flex gap-5 mt-12'}>
