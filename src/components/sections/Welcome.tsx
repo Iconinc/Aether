@@ -6,7 +6,7 @@ import {Menu} from "lucide-react";
 
 const Welcome = () => {
     return (
-        <section id={'Welcome'} className={'h-screen w-screen bg-slate-300/20 overflow-hidden'}>
+        <section id={'Welcome'} className={'h-screen w-screen bg-slate-300/20 overflow-hidden relative z-10'}>
             <Container className={'flex-center flex-col py-12'}>
                 <div className={'w-full flex-center px-6'}>
                     <h1 className={'font-medium text-2xl text-left md:text-center my-4  flex-1'}>Aether</h1>
@@ -24,7 +24,7 @@ const Welcome = () => {
                     Experiences
                 </h2>
                 <div className={'flex gap-5 mt-12'}>
-                    <Buttons title={'Discover Works'} path={'#Product'}/>
+                    <Buttons children={'Discover Works'} path={'#Product'}/>
                 </div>
 
                 <Image src={'/assets/welcome.png'} alt={'Welcome Image'} width={1200} height={800}

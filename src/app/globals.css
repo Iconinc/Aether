@@ -35,6 +35,10 @@ html {
     @apply flex items-start justify-start
 }
 
+.flex-end {
+    @apply flex items-end justify-end
+}
+
 .flex-between {
     @apply flex items-center justify-between
 }

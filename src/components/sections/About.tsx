@@ -8,7 +8,7 @@ const word2 = '<span class="text-white">We deliver tailored solutions</span> for
 
 const About = () => {
     return (
-        <section id={'About'} className={'bg-black py-12 md:py-24 lg:py-32 -mt-5 md:-mt-14 lg:mt-0'}>
+        <section id={'About'} className={'bg-black py-12 md:py-24 lg:py-32 -mt-5 md:-mt-14 lg:mt-0 relative z-20'}>
             <Container className={'flex-center flex-col gap-6 text-slate-50 px-4'}>
                 <div className={'md:w-5/6 lg:w-2/3 flex-start flex-col gap-4'}>
                     <div className={'bg-white shadow-lg shadow-blue-700 text-slate-900 p-4 md:p-6 lg:p-8 rounded-3xl animate-shimmer'}>

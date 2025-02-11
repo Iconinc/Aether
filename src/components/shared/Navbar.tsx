@@ -4,7 +4,7 @@ const menuItems = ["About", "Services", "Product", "Contact Us"];
 
 const Navbar = () => {
     return (
-        <nav className="fixed bottom-0 left-0 w-full flex justify-center py-4 z-20">
+        <nav className="fixed bottom-0 left-0 w-full hidden md:flex justify-center py-4 z-20">
             <ul className="bg-slate-50 flex rounded-full border-2 border-white p-1 shadow shadow-indigo-200 text-slate-500 font-medium">
                 {menuItems.map((item, index) => (
                     <Link
